@@ -3135,7 +3135,7 @@ MonoBehaviour:
   PhysicalDamage: 1
   DoRagdollPhysicalDamage: 1
   PhysicalDamageStartAt: 25
-  PhysicalDamageMultiplier: 0.8
+  PhysicalDamageMultiplier: 0.4
   RagdollStartAtDamage: 10
   PhysicalDamageIgnoreTags:
   - Player
@@ -3446,8 +3446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa2549d042f8b6d41bb6289069865f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 100
-  MaxHealth: 100
+  Health: 50
+  MaxHealth: 50
   BloodScreenEffect: 0
   BloodHitParticle: {fileID: 0}
   OnDeath:

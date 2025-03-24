@@ -9473,6 +9473,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 0f1660d08f9e9bb44b77c6c6d40b9d1a, type: 3}
+--- !u!1 &722486506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7982010173908788013, guid: 9ce03ed22613ec94794c2173f187f0bf, type: 3}
+  m_PrefabInstance: {fileID: 2023348047}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &723467603
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -35354,7 +35359,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8608526289384237669}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 722486506}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &2089705459499129667
 GameObject:
   m_ObjectHideFlags: 0
